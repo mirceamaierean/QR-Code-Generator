@@ -9,7 +9,7 @@ const onGenerateSubmit = (e) => {
   const size = document.getElementById("size").value;
 
   if (url === "") {
-    alert("Please enter a URL");
+    alert("Introduceți un URL");
   } else {
     showSpinner();
     setTimeout(() => {
